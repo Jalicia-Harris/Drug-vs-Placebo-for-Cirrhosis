@@ -50,6 +50,26 @@ A total of 424 PBC patients, referred to Mayo Clinic during that ten-year interv
 Using this model to make predictions would be fairly reliable in predicting if patients were given D-Penicillamine or didn't participate it the trial but not so well or being given a placebo.
 
 ![image](https://github.com/Jalicia-Harris/Drug-vs-Placebo-for-Cirrhosis/assets/128429809/e3d8d367-0327-4ac4-b193-2eac9ea277dc)
+
+###Train
+                  precision    recall  f1-score   support
+
+
+        Placebo       0.70      0.44      0.54       116
+
+       accuracy                           0.72       313
+      macro avg       0.77      0.76      0.75       313
+
+###Test
+                  precision    recall  f1-score   support
+
+
+        Placebo       0.63      0.32      0.42        38
+
+       accuracy                           0.69       105
+      macro avg       0.70      0.70      0.67       105
+
+
 ## Recommendations
 
 - Based on the extensive analysis of the data, patients who didn't take part in the trial should be removed or replaced with participants as not to possibly skew the test results.
